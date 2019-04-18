@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.author             = {"xuguoyong" => "jasondevios@outlook.com"}
   s.source       = { :git => "https://github.com/xuguoyong/XGYPhotoBrowser.git",:tag => "1.0.0"  }
   s.ios.deployment_target = "8.0"
-  s.resources    = ["XGYPtotoBrowser/XGYPtotoBrowser/XGYPtotoBrowser/*.{png,bundle}"]
-  s.source_files = "XGYPtotoBrowser/XGYPtotoBrowser/XGYPtotoBrowser/*.{h,m}"
+  s.source_files = "XGYPtotoBrowserDemo/XGYPtotoBrowser/*.{h,m}"
   s.dependency 'YYWebImage'
   s.requires_arc = true
 end

@@ -19,6 +19,9 @@
 		67168418226852AB00841BFD /* XGYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716840D226852AB00841BFD /* XGYTool.m */; };
 		67168419226852AB00841BFD /* XGYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168412226852AB00841BFD /* XGYPhotoCell.m */; };
 		6716841C226852BA00841BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716841A226852BA00841BFD /* AppDelegate.m */; };
+		671684252268539400841BFD /* XGYLoadingProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684202268539400841BFD /* XGYLoadingProgressLayer.m */; };
+		671684262268539400841BFD /* XGYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684222268539400841BFD /* XGYPhotoView.m */; };
+		671684272268539400841BFD /* XGYPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684242268539400841BFD /* XGYPhotoBrowser.m */; };
 		83C99E44DEC1BAB8574ED21E /* libPods-XGYPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC66B50D4E4D1BF9F8A938C /* libPods-XGYPhotoBrowserDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,13 @@
 		67168412226852AB00841BFD /* XGYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoCell.m; sourceTree = "<group>"; };
 		6716841A226852BA00841BFD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6716841B226852BA00841BFD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6716841E2268539400841BFD /* XGYPhotoBrowserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoBrowserProtocol.h; sourceTree = "<group>"; };
+		6716841F2268539400841BFD /* XGYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoView.h; sourceTree = "<group>"; };
+		671684202268539400841BFD /* XGYLoadingProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYLoadingProgressLayer.m; sourceTree = "<group>"; };
+		671684212268539400841BFD /* XGYPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoBrowser.h; sourceTree = "<group>"; };
+		671684222268539400841BFD /* XGYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoView.m; sourceTree = "<group>"; };
+		671684232268539400841BFD /* XGYLoadingProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYLoadingProgressLayer.h; sourceTree = "<group>"; };
+		671684242268539400841BFD /* XGYPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoBrowser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,7 @@
 		671683C0226851FA00841BFD /* XGYPhotoBrowserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6716841D2268539400841BFD /* XGYPtotoBrowser */,
 				67168402226852AB00841BFD /* Controller */,
 				6716840B226852AB00841BFD /* Model */,
 				67168410226852AB00841BFD /* View */,
@@ -133,14 +144,14 @@
 		67168402226852AB00841BFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				67168403226852AB00841BFD /* XGYAnimationController.m */,
-				67168404226852AB00841BFD /* XGYTabbarController.m */,
-				67168405226852AB00841BFD /* XGYNormalController.h */,
-				67168406226852AB00841BFD /* XGYNavigationController.m */,
 				67168407226852AB00841BFD /* XGYAnimationController.h */,
+				67168403226852AB00841BFD /* XGYAnimationController.m */,
+				6716840A226852AB00841BFD /* XGYNavigationController.h */,
+				67168406226852AB00841BFD /* XGYNavigationController.m */,
+				67168405226852AB00841BFD /* XGYNormalController.h */,
 				67168408226852AB00841BFD /* XGYNormalController.m */,
 				67168409226852AB00841BFD /* XGYTabbarController.h */,
-				6716840A226852AB00841BFD /* XGYNavigationController.h */,
+				67168404226852AB00841BFD /* XGYTabbarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,10 +159,10 @@
 		6716840B226852AB00841BFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6716840C226852AB00841BFD /* XGYImageModel.m */,
-				6716840D226852AB00841BFD /* XGYTool.m */,
 				6716840E226852AB00841BFD /* XGYImageModel.h */,
+				6716840C226852AB00841BFD /* XGYImageModel.m */,
 				6716840F226852AB00841BFD /* XGYTool.h */,
+				6716840D226852AB00841BFD /* XGYTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +175,20 @@
 			);
 			path = View;
 			sourceTree = "<group>";
+		};
+		6716841D2268539400841BFD /* XGYPtotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				671684232268539400841BFD /* XGYLoadingProgressLayer.h */,
+				671684202268539400841BFD /* XGYLoadingProgressLayer.m */,
+				671684212268539400841BFD /* XGYPhotoBrowser.h */,
+				671684242268539400841BFD /* XGYPhotoBrowser.m */,
+				6716841E2268539400841BFD /* XGYPhotoBrowserProtocol.h */,
+				6716841F2268539400841BFD /* XGYPhotoView.h */,
+				671684222268539400841BFD /* XGYPhotoView.m */,
+			);
+			path = XGYPtotoBrowser;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -263,12 +288,15 @@
 			files = (
 				67168417226852AB00841BFD /* XGYImageModel.m in Sources */,
 				67168414226852AB00841BFD /* XGYTabbarController.m in Sources */,
+				671684272268539400841BFD /* XGYPhotoBrowser.m in Sources */,
 				6716841C226852BA00841BFD /* AppDelegate.m in Sources */,
 				67168418226852AB00841BFD /* XGYTool.m in Sources */,
 				67168416226852AB00841BFD /* XGYNormalController.m in Sources */,
+				671684262268539400841BFD /* XGYPhotoView.m in Sources */,
 				671683D1226851FB00841BFD /* main.m in Sources */,
 				67168413226852AB00841BFD /* XGYAnimationController.m in Sources */,
 				67168419226852AB00841BFD /* XGYPhotoCell.m in Sources */,
+				671684252268539400841BFD /* XGYLoadingProgressLayer.m in Sources */,
 				67168415226852AB00841BFD /* XGYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671683C9226851FA00841BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671683C7226851FA00841BFD /* Main.storyboard */; };
+		671683CB226851FB00841BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671683CA226851FB00841BFD /* Assets.xcassets */; };
+		671683CE226851FB00841BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671683CC226851FB00841BFD /* LaunchScreen.storyboard */; };
+		671683D1226851FB00841BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683D0226851FB00841BFD /* main.m */; };
+		67168413226852AB00841BFD /* XGYAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168403226852AB00841BFD /* XGYAnimationController.m */; };
+		67168414226852AB00841BFD /* XGYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168404226852AB00841BFD /* XGYTabbarController.m */; };
+		67168415226852AB00841BFD /* XGYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168406226852AB00841BFD /* XGYNavigationController.m */; };
+		67168416226852AB00841BFD /* XGYNormalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168408226852AB00841BFD /* XGYNormalController.m */; };
+		67168417226852AB00841BFD /* XGYImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716840C226852AB00841BFD /* XGYImageModel.m */; };
+		67168418226852AB00841BFD /* XGYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716840D226852AB00841BFD /* XGYTool.m */; };
+		67168419226852AB00841BFD /* XGYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168412226852AB00841BFD /* XGYPhotoCell.m */; };
+		6716841C226852BA00841BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716841A226852BA00841BFD /* AppDelegate.m */; };
+		83C99E44DEC1BAB8574ED21E /* libPods-XGYPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC66B50D4E4D1BF9F8A938C /* libPods-XGYPhotoBrowserDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3F02D951647110320952CE /* Pods-XGYPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowserDemo/Pods-XGYPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		530FB4FA151B075D5D4BAC05 /* Pods-XGYPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowserDemo/Pods-XGYPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC66B50D4E4D1BF9F8A938C /* libPods-XGYPhotoBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XGYPhotoBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		671683BE226851FA00841BFD /* XGYPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGYPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671683C8226851FA00841BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671683CA226851FB00841BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671683CD226851FB00841BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671683CF226851FB00841BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671683D0226851FB00841BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67168403226852AB00841BFD /* XGYAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYAnimationController.m; sourceTree = "<group>"; };
+		67168404226852AB00841BFD /* XGYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYTabbarController.m; sourceTree = "<group>"; };
+		67168405226852AB00841BFD /* XGYNormalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNormalController.h; sourceTree = "<group>"; };
+		67168406226852AB00841BFD /* XGYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNavigationController.m; sourceTree = "<group>"; };
+		67168407226852AB00841BFD /* XGYAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYAnimationController.h; sourceTree = "<group>"; };
+		67168408226852AB00841BFD /* XGYNormalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNormalController.m; sourceTree = "<group>"; };
+		67168409226852AB00841BFD /* XGYTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYTabbarController.h; sourceTree = "<group>"; };
+		6716840A226852AB00841BFD /* XGYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNavigationController.h; sourceTree = "<group>"; };
+		6716840C226852AB00841BFD /* XGYImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYImageModel.m; sourceTree = "<group>"; };
+		6716840D226852AB00841BFD /* XGYTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYTool.m; sourceTree = "<group>"; };
+		6716840E226852AB00841BFD /* XGYImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYImageModel.h; sourceTree = "<group>"; };
+		6716840F226852AB00841BFD /* XGYTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYTool.h; sourceTree = "<group>"; };
+		67168411226852AB00841BFD /* XGYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoCell.h; sourceTree = "<group>"; };
+		67168412226852AB00841BFD /* XGYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoCell.m; sourceTree = "<group>"; };
+		6716841A226852BA00841BFD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6716841B226852BA00841BFD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671683BB226851FA00841BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C99E44DEC1BAB8574ED21E /* libPods-XGYPhotoBrowserDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410E9DBFE1D4821308773625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC66B50D4E4D1BF9F8A938C /* libPods-XGYPhotoBrowserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5304106275BCF6D2848F568E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				530FB4FA151B075D5D4BAC05 /* Pods-XGYPhotoBrowserDemo.debug.xcconfig */,
+				1F3F02D951647110320952CE /* Pods-XGYPhotoBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		671683B5226851FA00841BFD = {
+			isa = PBXGroup;
+			children = (
+				671683C0226851FA00841BFD /* XGYPhotoBrowserDemo */,
+				671683BF226851FA00841BFD /* Products */,
+				5304106275BCF6D2848F568E /* Pods */,
+				410E9DBFE1D4821308773625 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		671683BF226851FA00841BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671683BE226851FA00841BFD /* XGYPhotoBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671683C0226851FA00841BFD /* XGYPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67168402226852AB00841BFD /* Controller */,
+				6716840B226852AB00841BFD /* Model */,
+				67168410226852AB00841BFD /* View */,
+				671684012268527500841BFD /* Resource */,
+				671684002268526500841BFD /* Other */,
+			);
+			path = XGYPhotoBrowserDemo;
+			sourceTree = "<group>";
+		};
+		671684002268526500841BFD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6716841B226852BA00841BFD /* AppDelegate.h */,
+				6716841A226852BA00841BFD /* AppDelegate.m */,
+				671683CF226851FB00841BFD /* Info.plist */,
+				671683D0226851FB00841BFD /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		671684012268527500841BFD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				671683C7226851FA00841BFD /* Main.storyboard */,
+				671683CA226851FB00841BFD /* Assets.xcassets */,
+				671683CC226851FB00841BFD /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		67168402226852AB00841BFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67168403226852AB00841BFD /* XGYAnimationController.m */,
+				67168404226852AB00841BFD /* XGYTabbarController.m */,
+				67168405226852AB00841BFD /* XGYNormalController.h */,
+				67168406226852AB00841BFD /* XGYNavigationController.m */,
+				67168407226852AB00841BFD /* XGYAnimationController.h */,
+				67168408226852AB00841BFD /* XGYNormalController.m */,
+				67168409226852AB00841BFD /* XGYTabbarController.h */,
+				6716840A226852AB00841BFD /* XGYNavigationController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6716840B226852AB00841BFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6716840C226852AB00841BFD /* XGYImageModel.m */,
+				6716840D226852AB00841BFD /* XGYTool.m */,
+				6716840E226852AB00841BFD /* XGYImageModel.h */,
+				6716840F226852AB00841BFD /* XGYTool.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67168410226852AB00841BFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67168411226852AB00841BFD /* XGYPhotoCell.h */,
+				67168412226852AB00841BFD /* XGYPhotoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671683BD226851FA00841BFD /* XGYPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671683D4226851FB00841BFD /* Build configuration list for PBXNativeTarget "XGYPhotoBrowserDemo" */;
+			buildPhases = (
+				950DA157CC485321F3A29251 /* [CP] Check Pods Manifest.lock */,
+				671683BA226851FA00841BFD /* Sources */,
+				671683BB226851FA00841BFD /* Frameworks */,
+				671683BC226851FA00841BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XGYPhotoBrowserDemo;
+			productName = XGYPhotoBrowserDemo;
+			productReference = 671683BE226851FA00841BFD /* XGYPhotoBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671683B6226851FA00841BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "guoyong xu";
+				TargetAttributes = {
+					671683BD226851FA00841BFD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 671683B9226851FA00841BFD /* Build configuration list for PBXProject "XGYPhotoBrowserDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671683B5226851FA00841BFD;
+			productRefGroup = 671683BF226851FA00841BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671683BD226851FA00841BFD /* XGYPhotoBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671683BC226851FA00841BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671683CE226851FB00841BFD /* LaunchScreen.storyboard in Resources */,
+				671683CB226851FB00841BFD /* Assets.xcassets in Resources */,
+				671683C9226851FA00841BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		950DA157CC485321F3A29251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XGYPhotoBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671683BA226851FA00841BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67168417226852AB00841BFD /* XGYImageModel.m in Sources */,
+				67168414226852AB00841BFD /* XGYTabbarController.m in Sources */,
+				6716841C226852BA00841BFD /* AppDelegate.m in Sources */,
+				67168418226852AB00841BFD /* XGYTool.m in Sources */,
+				67168416226852AB00841BFD /* XGYNormalController.m in Sources */,
+				671683D1226851FB00841BFD /* main.m in Sources */,
+				67168413226852AB00841BFD /* XGYAnimationController.m in Sources */,
+				67168419226852AB00841BFD /* XGYPhotoCell.m in Sources */,
+				67168415226852AB00841BFD /* XGYNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		671683C7226851FA00841BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671683C8226851FA00841BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671683CC226851FB00841BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671683CD226851FB00841BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671683D2226851FB00841BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		671683D3226851FB00841BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671683D5226851FB00841BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530FB4FA151B075D5D4BAC05 /* Pods-XGYPhotoBrowserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6UWNQYZ59;
+				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowserDemo/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = finogeeks.XGYPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		671683D6226851FB00841BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3F02D951647110320952CE /* Pods-XGYPhotoBrowserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6UWNQYZ59;
+				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowserDemo/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = finogeeks.XGYPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671683B9226851FA00841BFD /* Build configuration list for PBXProject "XGYPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671683D2226851FB00841BFD /* Debug */,
+				671683D3226851FB00841BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671683D4226851FB00841BFD /* Build configuration list for PBXNativeTarget "XGYPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671683D5226851FB00841BFD /* Debug */,
+				671683D6226851FB00841BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671683B6226851FA00841BFD /* Project object */;
+}

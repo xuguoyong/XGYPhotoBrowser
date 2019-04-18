@@ -1,6 +1,6 @@
 //
 //  main.m
-//  XGYPhotoBrowser
+//  XGYPhotoBrowserDemo
 //
 //  Created by guoyong xu on 2019/4/18.
 //  Copyright © 2019年 guoyong xu. All rights reserved.

@@ -1,0 +1,24 @@
+{
+  "name": "XGYPhotoBroswer",
+  "version": "1.0.0",
+  "summary": "XGYPhotoBroswer.",
+  "description": "图片浏览器 高仿微信 微博 今日头条",
+  "homepage": "https://github.com/xuguoyong/XGYPhotoBrowser.git",
+  "license": {
+    "type": "Copyright",
+    "text": "                      Copyright guoyong xu. All rights reserved.\n"
+  },
+  "authors": {
+    "xuguoyong": "jasondevios@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/xuguoyong/XGYPhotoBrowser",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "XGYPtotoBrowser/*.{png,bundle}",
+  "source_files": "XGYPtotoBrowser/*.{h,m}",
+  "requires_arc": true
+}

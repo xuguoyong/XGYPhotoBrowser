@@ -7,179 +7,200 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6700E983226809750045E50E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E963226809740045E50E /* main.m */; };
-		6700E984226809750045E50E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E964226809740045E50E /* AppDelegate.m */; };
-		6700E985226809750045E50E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6700E965226809750045E50E /* Info.plist */; };
-		6700E986226809750045E50E /* XGYAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E967226809750045E50E /* XGYAnimationController.m */; };
-		6700E987226809750045E50E /* XGYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E968226809750045E50E /* XGYTabbarController.m */; };
-		6700E988226809750045E50E /* XGYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E96A226809750045E50E /* XGYNavigationController.m */; };
-		6700E989226809750045E50E /* XGYNormalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E96C226809750045E50E /* XGYNormalController.m */; };
-		6700E98A226809750045E50E /* XGYImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E970226809750045E50E /* XGYImageModel.m */; };
-		6700E98B226809750045E50E /* XGYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700E974226809750045E50E /* XGYPhotoCell.m */; };
-		6700E98C226809750045E50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6700E976226809750045E50E /* Assets.xcassets */; };
-		6700E98D226809750045E50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6700E977226809750045E50E /* LaunchScreen.storyboard */; };
-		6700E98E226809750045E50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6700E979226809750045E50E /* Main.storyboard */; };
-		EC7126D29D857A4BCD9927D3 /* libPods-XGYPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24DA1BDAEF2C3921262ED6A /* libPods-XGYPhotoBrowser.a */; };
+		63404BA5A23EF611F1BCF1CF /* libPods-XGYPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A718C4125BD00A201929781 /* libPods-XGYPhotoBrowser.a */; };
+		6716837F2268492700841BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6716837D2268492700841BFD /* Main.storyboard */; };
+		671683812268492700841BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671683802268492700841BFD /* Assets.xcassets */; };
+		671683842268492700841BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671683822268492700841BFD /* LaunchScreen.storyboard */; };
+		671683872268492700841BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683862268492700841BFD /* main.m */; };
+		67168391226849E200841BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168390226849E200841BFD /* AppDelegate.m */; };
+		671683A3226849EA00841BFD /* XGYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168394226849EA00841BFD /* XGYPhotoCell.m */; };
+		671683A4226849EA00841BFD /* XGYImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168396226849EA00841BFD /* XGYImageModel.m */; };
+		671683A5226849EA00841BFD /* XGYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168397226849EA00841BFD /* XGYTool.m */; };
+		671683A6226849EA00841BFD /* XGYAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716839B226849EA00841BFD /* XGYAnimationController.m */; };
+		671683A7226849EA00841BFD /* XGYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716839C226849EA00841BFD /* XGYTabbarController.m */; };
+		671683A8226849EA00841BFD /* XGYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6716839E226849EA00841BFD /* XGYNavigationController.m */; };
+		671683A9226849EA00841BFD /* XGYNormalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683A0226849EA00841BFD /* XGYNormalController.m */; };
+		671683B222684B7A00841BFD /* XGYLoadingProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683AD22684B7A00841BFD /* XGYLoadingProgressLayer.m */; };
+		671683B322684B7A00841BFD /* XGYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683AF22684B7A00841BFD /* XGYPhotoView.m */; };
+		671683B422684B7A00841BFD /* XGYPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 671683B122684B7A00841BFD /* XGYPhotoBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54285C9A62DD3161CEB11EAE /* Pods-XGYPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowser/Pods-XGYPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
-		6700E911226807D80045E50E /* XGYPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGYPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6700E962226809740045E50E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6700E963226809740045E50E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6700E964226809740045E50E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6700E965226809750045E50E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6700E967226809750045E50E /* XGYAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYAnimationController.m; sourceTree = "<group>"; };
-		6700E968226809750045E50E /* XGYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYTabbarController.m; sourceTree = "<group>"; };
-		6700E969226809750045E50E /* XGYNormalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNormalController.h; sourceTree = "<group>"; };
-		6700E96A226809750045E50E /* XGYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNavigationController.m; sourceTree = "<group>"; };
-		6700E96B226809750045E50E /* XGYAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYAnimationController.h; sourceTree = "<group>"; };
-		6700E96C226809750045E50E /* XGYNormalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNormalController.m; sourceTree = "<group>"; };
-		6700E96D226809750045E50E /* XGYTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYTabbarController.h; sourceTree = "<group>"; };
-		6700E96E226809750045E50E /* XGYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNavigationController.h; sourceTree = "<group>"; };
-		6700E970226809750045E50E /* XGYImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYImageModel.m; sourceTree = "<group>"; };
-		6700E971226809750045E50E /* XGYImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYImageModel.h; sourceTree = "<group>"; };
-		6700E973226809750045E50E /* XGYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoCell.h; sourceTree = "<group>"; };
-		6700E974226809750045E50E /* XGYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoCell.m; sourceTree = "<group>"; };
-		6700E976226809750045E50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6700E978226809750045E50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6700E97A226809750045E50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AD8B96AB49EC8953CB95523 /* Pods-XGYPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowser/Pods-XGYPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
-		A24DA1BDAEF2C3921262ED6A /* libPods-XGYPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XGYPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246CE549DC2487BA33630F2F /* Pods-XGYPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowser/Pods-XGYPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		671683742268492700841BFD /* XGYPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGYPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6716837E2268492700841BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671683802268492700841BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671683832268492700841BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671683852268492700841BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671683862268492700841BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6716838F226849E200841BFD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67168390226849E200841BFD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67168393226849EA00841BFD /* XGYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoCell.h; sourceTree = "<group>"; };
+		67168394226849EA00841BFD /* XGYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoCell.m; sourceTree = "<group>"; };
+		67168396226849EA00841BFD /* XGYImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYImageModel.m; sourceTree = "<group>"; };
+		67168397226849EA00841BFD /* XGYTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYTool.m; sourceTree = "<group>"; };
+		67168398226849EA00841BFD /* XGYImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYImageModel.h; sourceTree = "<group>"; };
+		67168399226849EA00841BFD /* XGYTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYTool.h; sourceTree = "<group>"; };
+		6716839B226849EA00841BFD /* XGYAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYAnimationController.m; sourceTree = "<group>"; };
+		6716839C226849EA00841BFD /* XGYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYTabbarController.m; sourceTree = "<group>"; };
+		6716839D226849EA00841BFD /* XGYNormalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNormalController.h; sourceTree = "<group>"; };
+		6716839E226849EA00841BFD /* XGYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNavigationController.m; sourceTree = "<group>"; };
+		6716839F226849EA00841BFD /* XGYAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYAnimationController.h; sourceTree = "<group>"; };
+		671683A0226849EA00841BFD /* XGYNormalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYNormalController.m; sourceTree = "<group>"; };
+		671683A1226849EA00841BFD /* XGYTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYTabbarController.h; sourceTree = "<group>"; };
+		671683A2226849EA00841BFD /* XGYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYNavigationController.h; sourceTree = "<group>"; };
+		671683AB22684B7A00841BFD /* XGYPhotoBrowserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoBrowserProtocol.h; sourceTree = "<group>"; };
+		671683AC22684B7A00841BFD /* XGYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoView.h; sourceTree = "<group>"; };
+		671683AD22684B7A00841BFD /* XGYLoadingProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYLoadingProgressLayer.m; sourceTree = "<group>"; };
+		671683AE22684B7A00841BFD /* XGYPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPhotoBrowser.h; sourceTree = "<group>"; };
+		671683AF22684B7A00841BFD /* XGYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoView.m; sourceTree = "<group>"; };
+		671683B022684B7A00841BFD /* XGYLoadingProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYLoadingProgressLayer.h; sourceTree = "<group>"; };
+		671683B122684B7A00841BFD /* XGYPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoBrowser.m; sourceTree = "<group>"; };
+		8A718C4125BD00A201929781 /* libPods-XGYPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XGYPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A834AD4E41DBDB95530273 /* Pods-XGYPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XGYPhotoBrowser/Pods-XGYPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6700E90E226807D80045E50E /* Frameworks */ = {
+		671683712268492700841BFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7126D29D857A4BCD9927D3 /* libPods-XGYPhotoBrowser.a in Frameworks */,
+				63404BA5A23EF611F1BCF1CF /* libPods-XGYPhotoBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B373C8A5EFB8F2CB10D1A66 /* Pods */ = {
+		19BE945D4382E51E3F160F30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54285C9A62DD3161CEB11EAE /* Pods-XGYPhotoBrowser.debug.xcconfig */,
-				8AD8B96AB49EC8953CB95523 /* Pods-XGYPhotoBrowser.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		61BB4F6901BBF1844397BAB3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A24DA1BDAEF2C3921262ED6A /* libPods-XGYPhotoBrowser.a */,
+				8A718C4125BD00A201929781 /* libPods-XGYPhotoBrowser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6700E908226807D80045E50E = {
+		570F58AB25B4BDD6C24AB76D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6700E95F226809740045E50E /* XGYPhotoBrowserDemo */,
-				6700E912226807D80045E50E /* Products */,
-				3B373C8A5EFB8F2CB10D1A66 /* Pods */,
-				61BB4F6901BBF1844397BAB3 /* Frameworks */,
+				F6A834AD4E41DBDB95530273 /* Pods-XGYPhotoBrowser.debug.xcconfig */,
+				246CE549DC2487BA33630F2F /* Pods-XGYPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6716836B2268492700841BFD = {
+			isa = PBXGroup;
+			children = (
+				671683762268492700841BFD /* XGYPhotoBrowser */,
+				671683752268492700841BFD /* Products */,
+				570F58AB25B4BDD6C24AB76D /* Pods */,
+				19BE945D4382E51E3F160F30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		6700E912226807D80045E50E /* Products */ = {
+		671683752268492700841BFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6700E911226807D80045E50E /* XGYPhotoBrowser.app */,
+				671683742268492700841BFD /* XGYPhotoBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6700E95F226809740045E50E /* XGYPhotoBrowserDemo */ = {
+		671683762268492700841BFD /* XGYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				6700E960226809740045E50E /* XGYPhotoBrowseDemo */,
+				671683AA22684B7A00841BFD /* XGYPtotoBrowser */,
+				6716839A226849EA00841BFD /* Controller */,
+				67168395226849EA00841BFD /* Model */,
+				67168392226849EA00841BFD /* View */,
+				6716838E2268497F00841BFD /* Resource */,
+				6716838D2268497800841BFD /* Other */,
 			);
-			path = XGYPhotoBrowserDemo;
+			path = XGYPhotoBrowser;
 			sourceTree = "<group>";
 		};
-		6700E960226809740045E50E /* XGYPhotoBrowseDemo */ = {
+		6716838D2268497800841BFD /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				6700E961226809740045E50E /* Other */,
-				6700E966226809750045E50E /* Controller */,
-				6700E96F226809750045E50E /* Model */,
-				6700E972226809750045E50E /* View */,
-				6700E975226809750045E50E /* Resource */,
-			);
-			path = XGYPhotoBrowseDemo;
-			sourceTree = "<group>";
-		};
-		6700E961226809740045E50E /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				6700E962226809740045E50E /* AppDelegate.h */,
-				6700E963226809740045E50E /* main.m */,
-				6700E964226809740045E50E /* AppDelegate.m */,
-				6700E965226809750045E50E /* Info.plist */,
+				6716838F226849E200841BFD /* AppDelegate.h */,
+				67168390226849E200841BFD /* AppDelegate.m */,
+				671683852268492700841BFD /* Info.plist */,
+				671683862268492700841BFD /* main.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		6700E966226809750045E50E /* Controller */ = {
+		6716838E2268497F00841BFD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				6700E967226809750045E50E /* XGYAnimationController.m */,
-				6700E968226809750045E50E /* XGYTabbarController.m */,
-				6700E969226809750045E50E /* XGYNormalController.h */,
-				6700E96A226809750045E50E /* XGYNavigationController.m */,
-				6700E96B226809750045E50E /* XGYAnimationController.h */,
-				6700E96C226809750045E50E /* XGYNormalController.m */,
-				6700E96D226809750045E50E /* XGYTabbarController.h */,
-				6700E96E226809750045E50E /* XGYNavigationController.h */,
+				6716837D2268492700841BFD /* Main.storyboard */,
+				671683802268492700841BFD /* Assets.xcassets */,
+				671683822268492700841BFD /* LaunchScreen.storyboard */,
 			);
-			path = Controller;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		6700E96F226809750045E50E /* Model */ = {
+		67168392226849EA00841BFD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6700E970226809750045E50E /* XGYImageModel.m */,
-				6700E971226809750045E50E /* XGYImageModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6700E972226809750045E50E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6700E973226809750045E50E /* XGYPhotoCell.h */,
-				6700E974226809750045E50E /* XGYPhotoCell.m */,
+				67168393226849EA00841BFD /* XGYPhotoCell.h */,
+				67168394226849EA00841BFD /* XGYPhotoCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		6700E975226809750045E50E /* Resource */ = {
+		67168395226849EA00841BFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6700E976226809750045E50E /* Assets.xcassets */,
-				6700E977226809750045E50E /* LaunchScreen.storyboard */,
-				6700E979226809750045E50E /* Main.storyboard */,
+				67168396226849EA00841BFD /* XGYImageModel.m */,
+				67168397226849EA00841BFD /* XGYTool.m */,
+				67168398226849EA00841BFD /* XGYImageModel.h */,
+				67168399226849EA00841BFD /* XGYTool.h */,
 			);
-			path = Resource;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6716839A226849EA00841BFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6716839B226849EA00841BFD /* XGYAnimationController.m */,
+				6716839C226849EA00841BFD /* XGYTabbarController.m */,
+				6716839D226849EA00841BFD /* XGYNormalController.h */,
+				6716839E226849EA00841BFD /* XGYNavigationController.m */,
+				6716839F226849EA00841BFD /* XGYAnimationController.h */,
+				671683A0226849EA00841BFD /* XGYNormalController.m */,
+				671683A1226849EA00841BFD /* XGYTabbarController.h */,
+				671683A2226849EA00841BFD /* XGYNavigationController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		671683AA22684B7A00841BFD /* XGYPtotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				671683B022684B7A00841BFD /* XGYLoadingProgressLayer.h */,
+				671683AD22684B7A00841BFD /* XGYLoadingProgressLayer.m */,
+				671683AE22684B7A00841BFD /* XGYPhotoBrowser.h */,
+				671683B122684B7A00841BFD /* XGYPhotoBrowser.m */,
+				671683AB22684B7A00841BFD /* XGYPhotoBrowserProtocol.h */,
+				671683AC22684B7A00841BFD /* XGYPhotoView.h */,
+				671683AF22684B7A00841BFD /* XGYPhotoView.m */,
+			);
+			path = XGYPtotoBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6700E910226807D80045E50E /* XGYPhotoBrowser */ = {
+		671683732268492700841BFD /* XGYPhotoBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6700E927226807D90045E50E /* Build configuration list for PBXNativeTarget "XGYPhotoBrowser" */;
+			buildConfigurationList = 6716838A2268492700841BFD /* Build configuration list for PBXNativeTarget "XGYPhotoBrowser" */;
 			buildPhases = (
-				B058B5FC99D3243857E9FB28 /* [CP] Check Pods Manifest.lock */,
-				6700E90D226807D80045E50E /* Sources */,
-				6700E90E226807D80045E50E /* Frameworks */,
-				6700E90F226807D80045E50E /* Resources */,
+				F8F12D79D1E2C0B811349E88 /* [CP] Check Pods Manifest.lock */,
+				671683702268492700841BFD /* Sources */,
+				671683712268492700841BFD /* Frameworks */,
+				671683722268492700841BFD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,24 +208,24 @@
 			);
 			name = XGYPhotoBrowser;
 			productName = XGYPhotoBrowser;
-			productReference = 6700E911226807D80045E50E /* XGYPhotoBrowser.app */;
+			productReference = 671683742268492700841BFD /* XGYPhotoBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6700E909226807D80045E50E /* Project object */ = {
+		6716836C2268492700841BFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "guoyong xu";
 				TargetAttributes = {
-					6700E910226807D80045E50E = {
+					671683732268492700841BFD = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 6700E90C226807D80045E50E /* Build configuration list for PBXProject "XGYPhotoBrowser" */;
+			buildConfigurationList = 6716836F2268492700841BFD /* Build configuration list for PBXProject "XGYPhotoBrowser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,32 +233,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 6700E908226807D80045E50E;
-			productRefGroup = 6700E912226807D80045E50E /* Products */;
+			mainGroup = 6716836B2268492700841BFD;
+			productRefGroup = 671683752268492700841BFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6700E910226807D80045E50E /* XGYPhotoBrowser */,
+				671683732268492700841BFD /* XGYPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6700E90F226807D80045E50E /* Resources */ = {
+		671683722268492700841BFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6700E98D226809750045E50E /* LaunchScreen.storyboard in Resources */,
-				6700E98C226809750045E50E /* Assets.xcassets in Resources */,
-				6700E985226809750045E50E /* Info.plist in Resources */,
-				6700E98E226809750045E50E /* Main.storyboard in Resources */,
+				671683842268492700841BFD /* LaunchScreen.storyboard in Resources */,
+				671683812268492700841BFD /* Assets.xcassets in Resources */,
+				6716837F2268492700841BFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B058B5FC99D3243857E9FB28 /* [CP] Check Pods Manifest.lock */ = {
+		F8F12D79D1E2C0B811349E88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,44 +282,48 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6700E90D226807D80045E50E /* Sources */ = {
+		671683702268492700841BFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6700E98A226809750045E50E /* XGYImageModel.m in Sources */,
-				6700E987226809750045E50E /* XGYTabbarController.m in Sources */,
-				6700E989226809750045E50E /* XGYNormalController.m in Sources */,
-				6700E98B226809750045E50E /* XGYPhotoCell.m in Sources */,
-				6700E984226809750045E50E /* AppDelegate.m in Sources */,
-				6700E986226809750045E50E /* XGYAnimationController.m in Sources */,
-				6700E988226809750045E50E /* XGYNavigationController.m in Sources */,
-				6700E983226809750045E50E /* main.m in Sources */,
+				671683A8226849EA00841BFD /* XGYNavigationController.m in Sources */,
+				671683A5226849EA00841BFD /* XGYTool.m in Sources */,
+				671683B422684B7A00841BFD /* XGYPhotoBrowser.m in Sources */,
+				671683A6226849EA00841BFD /* XGYAnimationController.m in Sources */,
+				671683A3226849EA00841BFD /* XGYPhotoCell.m in Sources */,
+				671683A9226849EA00841BFD /* XGYNormalController.m in Sources */,
+				671683B322684B7A00841BFD /* XGYPhotoView.m in Sources */,
+				67168391226849E200841BFD /* AppDelegate.m in Sources */,
+				671683A7226849EA00841BFD /* XGYTabbarController.m in Sources */,
+				671683A4226849EA00841BFD /* XGYImageModel.m in Sources */,
+				671683B222684B7A00841BFD /* XGYLoadingProgressLayer.m in Sources */,
+				671683872268492700841BFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6700E977226809750045E50E /* LaunchScreen.storyboard */ = {
+		6716837D2268492700841BFD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6700E978226809750045E50E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6700E979226809750045E50E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6700E97A226809750045E50E /* Base */,
+				6716837E2268492700841BFD /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671683822268492700841BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671683832268492700841BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6700E925226807D90045E50E /* Debug */ = {
+		671683882268492700841BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		6700E926226807D90045E50E /* Release */ = {
+		671683892268492700841BFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,14 +435,15 @@
 			};
 			name = Release;
 		};
-		6700E928226807D90045E50E /* Debug */ = {
+		6716838B2268492700841BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54285C9A62DD3161CEB11EAE /* Pods-XGYPhotoBrowser.debug.xcconfig */;
+			baseConfigurationReference = F6A834AD4E41DBDB95530273 /* Pods-XGYPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6UWNQYZ59;
-				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowser/XGYPhotoBrowseDemo/Other/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowser/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,14 +454,15 @@
 			};
 			name = Debug;
 		};
-		6700E929226807D90045E50E /* Release */ = {
+		6716838C2268492700841BFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AD8B96AB49EC8953CB95523 /* Pods-XGYPhotoBrowser.release.xcconfig */;
+			baseConfigurationReference = 246CE549DC2487BA33630F2F /* Pods-XGYPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6UWNQYZ59;
-				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowser/XGYPhotoBrowseDemo/Other/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowser/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,25 +476,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6700E90C226807D80045E50E /* Build configuration list for PBXProject "XGYPhotoBrowser" */ = {
+		6716836F2268492700841BFD /* Build configuration list for PBXProject "XGYPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6700E925226807D90045E50E /* Debug */,
-				6700E926226807D90045E50E /* Release */,
+				671683882268492700841BFD /* Debug */,
+				671683892268492700841BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6700E927226807D90045E50E /* Build configuration list for PBXNativeTarget "XGYPhotoBrowser" */ = {
+		6716838A2268492700841BFD /* Build configuration list for PBXNativeTarget "XGYPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6700E928226807D90045E50E /* Debug */,
-				6700E929226807D90045E50E /* Release */,
+				6716838B2268492700841BFD /* Debug */,
+				6716838C2268492700841BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6700E909226807D80045E50E /* Project object */;
+	rootObject = 6716836C2268492700841BFD /* Project object */;
 }

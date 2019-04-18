@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.resources    = "XGYPtotoBrowser/XGYPtotoBrowser/*.{png,bundle}"
   s.source_files = "XGYPtotoBrowser/XGYPtotoBrowser/*.{h,m}"
+  s.dependency 'YYWebImage'
   s.requires_arc = true
 end

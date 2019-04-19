@@ -9,4 +9,4 @@
 # 使用方式：
   详情请移步简书地址:https://www.jianshu.com/p/fa79f9897aaa
 
-### 注 ： 浏览器，默认依赖YYWebImage库，如果需要依赖SDwebImage的请移步至：https://github.com/xuguoyong/XGYPhotoBrowser-SDwebImage
+### 注 ： 浏览器，默认依赖YYWebImage库，如果需要依赖SDwebImage的请联系我。

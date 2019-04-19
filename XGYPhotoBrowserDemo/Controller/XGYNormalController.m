@@ -95,9 +95,6 @@
 }
 
 
-/**
- 图片的点击事件 重载了父类的方法
- */
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     

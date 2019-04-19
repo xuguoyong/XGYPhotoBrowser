@@ -23,12 +23,12 @@
     
     //1 普通的照片查看
     XGYNormalController *normal = [[XGYNormalController alloc] init];
-    [self addOneChlildVc:normal title:@"普通的照片" imageName:@"btn-xiaoxi-n" selectedImageName:@"btn-xiaoxi-h"];
+    [self addOneChlildVc:normal title:@"普通的照片" imageName:@"normal-n" selectedImageName:@"normal-h"];
     
     
     //带动画的视频查看
     XGYAnimationController *animation = [[XGYAnimationController alloc] init];
-     [self addOneChlildVc:animation title:@"带动画的照片" imageName:@"turkey_tags_1_n" selectedImageName:@"turkey_tags_1_h"];
+     [self addOneChlildVc:animation title:@"带动画的照片" imageName:@"animation-n" selectedImageName:@"animation-h"];
     
     
     

@@ -58,7 +58,7 @@
 
 /**
  * 初始化方式 2
- * @param delegate i浏览器的代理
+ * @param delegate 浏览器的代理
  * @param totalPhotoCount 图片总数量
  * @param currentIndex 当前的图片下标
  * @return 图片浏览器

@@ -144,14 +144,14 @@
 		67168402226852AB00841BFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				67168407226852AB00841BFD /* XGYAnimationController.h */,
-				67168403226852AB00841BFD /* XGYAnimationController.m */,
 				6716840A226852AB00841BFD /* XGYNavigationController.h */,
 				67168406226852AB00841BFD /* XGYNavigationController.m */,
-				67168405226852AB00841BFD /* XGYNormalController.h */,
-				67168408226852AB00841BFD /* XGYNormalController.m */,
 				67168409226852AB00841BFD /* XGYTabbarController.h */,
 				67168404226852AB00841BFD /* XGYTabbarController.m */,
+				67168407226852AB00841BFD /* XGYAnimationController.h */,
+				67168403226852AB00841BFD /* XGYAnimationController.m */,
+				67168405226852AB00841BFD /* XGYNormalController.h */,
+				67168408226852AB00841BFD /* XGYNormalController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -443,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6UWNQYZ59;
 				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowserDemo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6UWNQYZ59;
 				INFOPLIST_FILE = "$(SRCROOT)/XGYPhotoBrowserDemo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

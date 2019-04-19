@@ -39,7 +39,6 @@ extern const CGFloat kXGYPhotoViewPadding;
  */
 @property (nonatomic, assign) BOOL dowloadImageSuccess;
 
-@property (class, nonatomic, strong) UIColor *backgroundColor;
 
 - (instancetype)initWithFrame:(CGRect)frame;
 

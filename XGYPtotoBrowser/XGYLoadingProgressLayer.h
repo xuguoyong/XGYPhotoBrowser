@@ -13,6 +13,6 @@
 - (instancetype)initWithFrame:(CGRect)frame;
 - (void)xgy_startAnimation;
 - (void)xgy_stopAnimation;
-
++ (void)showMessage:(NSString *)message;
 @end
 

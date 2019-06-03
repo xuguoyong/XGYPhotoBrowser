@@ -68,4 +68,25 @@
     [self removeAllAnimations];
 }
 
++ (void)showMessage:(NSString *)message
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
+    label.backgroundColor = [UIColor blackColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.layer.cornerRadius = 5.0f;
+    label.layer.masksToBounds = YES;
+    UIWindow *keywindow = [UIApplication sharedApplication].keyWindow;
+    [keywindow addSubview:label];
+    label.text = message;
+    CGSize sizeFit = [message boundingRectWithSize:CGSizeMake(MAXFLOAT, 35) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName :label.font} context:nil].size;
+    label.frame = CGRectMake(0, 0, sizeFit.width + 10, sizeFit.height + 10);
+    label.center = keywindow.center;
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [label removeFromSuperview];
+    });
+}
+
+
 @end

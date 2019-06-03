@@ -14,6 +14,22 @@
 const CGFloat kXGYPhotoViewPadding = 10;
 const CGFloat kXGYPhotoViewMaxScale = 3;
 
+#define kXGYPhotoViewWindowSafeAreaInset \
+({\
+UIEdgeInsets returnInsets = UIEdgeInsetsMake([UIApplication sharedApplication].statusBarFrame.size.height, 0, 0, 0);\
+UIWindow * keyWindow = [UIApplication sharedApplication].keyWindow;\
+if ([keyWindow respondsToSelector:NSSelectorFromString(@"safeAreaInsets")]) {\
+UIEdgeInsets inset = [[keyWindow valueForKeyPath:@"safeAreaInsets"] UIEdgeInsetsValue];\
+if (inset.top < [UIApplication sharedApplication].statusBarFrame.size.height) {\
+inset.top = [UIApplication sharedApplication].statusBarFrame.size.height;\
+}\
+returnInsets = inset;\
+}\
+(returnInsets);\
+})\
+
+
+
 @interface XGYPhotoView ()<UIScrollViewDelegate, UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong, readwrite) YYAnimatedImageView *imageView;
@@ -23,6 +39,12 @@ const CGFloat kXGYPhotoViewMaxScale = 3;
  图片的URL
  */
 @property (nonatomic, strong, readwrite) NSURL *imageURL;
+
+
+/**
+ 保存到相册按钮
+ */
+@property (nonatomic, strong) UIButton *saveButton;
 
 @end
 
@@ -53,6 +75,22 @@ const CGFloat kXGYPhotoViewMaxScale = 3;
         
         _progressLayer.hidden = YES;
         [self.layer addSublayer:_progressLayer];
+        
+        self.saveButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self addSubview:self.saveButton];
+
+        CGFloat heigth =  [UIScreen mainScreen].bounds.size.height;
+        self.saveButton.frame = CGRectMake(30, heigth - kXGYPhotoViewWindowSafeAreaInset.bottom - 20-35, 65, 25);
+        [self.saveButton setTitle:@"保存" forState:UIControlStateNormal];
+        self.saveButton.layer.borderWidth = 1.0f;
+        self.saveButton.layer.borderColor = [UIColor whiteColor].CGColor;
+        self.saveButton.layer.masksToBounds = YES;
+        self.saveButton.layer.cornerRadius = 5.0f;
+        [self.saveButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        self.saveButton.titleLabel.font = [UIFont systemFontOfSize:16];
+        [self.saveButton addTarget:self action:@selector(saveImageToAlbum) forControlEvents:UIControlEventTouchUpInside];
+        
+        
     }
     return self;
 }
@@ -242,5 +280,28 @@ const CGFloat kXGYPhotoViewMaxScale = 3;
 
 }
 
+#pragma mark - save
+- (void)saveImageToAlbum
+{
+    
+    //先保存原图
+    //本地已经缓存好了 直接使用
+    UIImage *localCacheImage = [self cacheImageWithImageURL:self.imageURL];
+    if (localCacheImage) {
+        UIImageWriteToSavedPhotosAlbum(localCacheImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+        return;
+    }
+}
+
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
+    
+    NSString *msg = nil;
+    if(error){
+        msg = @"保存图片失败";
+    }else{
+        msg = @"保存图片成功";
+    }
+    [XGYLoadingProgressLayer showMessage:msg];
+}
 
 @end

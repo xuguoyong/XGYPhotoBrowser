@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XGYPhotoBrowser"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "XGYPhotoBrowser."
   s.description  = <<-DESC
                     图片浏览器 高仿微信 微博 今日头条

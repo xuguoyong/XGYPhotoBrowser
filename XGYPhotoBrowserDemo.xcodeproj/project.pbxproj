@@ -22,6 +22,7 @@
 		671684252268539400841BFD /* XGYLoadingProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684202268539400841BFD /* XGYLoadingProgressLayer.m */; };
 		671684262268539400841BFD /* XGYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684222268539400841BFD /* XGYPhotoView.m */; };
 		671684272268539400841BFD /* XGYPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684242268539400841BFD /* XGYPhotoBrowser.m */; };
+		6716842A2269CD1900841BFD /* XGYImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 671684292269CD1900841BFD /* XGYImageCacheManager.m */; };
 		83C99E44DEC1BAB8574ED21E /* libPods-XGYPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC66B50D4E4D1BF9F8A938C /* libPods-XGYPhotoBrowserDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		671684222268539400841BFD /* XGYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoView.m; sourceTree = "<group>"; };
 		671684232268539400841BFD /* XGYLoadingProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYLoadingProgressLayer.h; sourceTree = "<group>"; };
 		671684242268539400841BFD /* XGYPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPhotoBrowser.m; sourceTree = "<group>"; };
+		671684282269CD1900841BFD /* XGYImageCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGYImageCacheManager.h; sourceTree = "<group>"; };
+		671684292269CD1900841BFD /* XGYImageCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGYImageCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				6716841E2268539400841BFD /* XGYPhotoBrowserProtocol.h */,
 				6716841F2268539400841BFD /* XGYPhotoView.h */,
 				671684222268539400841BFD /* XGYPhotoView.m */,
+				671684282269CD1900841BFD /* XGYImageCacheManager.h */,
+				671684292269CD1900841BFD /* XGYImageCacheManager.m */,
 			);
 			path = XGYPtotoBrowser;
 			sourceTree = SOURCE_ROOT;
@@ -293,6 +298,7 @@
 				67168418226852AB00841BFD /* XGYTool.m in Sources */,
 				67168416226852AB00841BFD /* XGYNormalController.m in Sources */,
 				671684262268539400841BFD /* XGYPhotoView.m in Sources */,
+				6716842A2269CD1900841BFD /* XGYImageCacheManager.m in Sources */,
 				671683D1226851FB00841BFD /* main.m in Sources */,
 				67168413226852AB00841BFD /* XGYAnimationController.m in Sources */,
 				67168419226852AB00841BFD /* XGYPhotoCell.m in Sources */,

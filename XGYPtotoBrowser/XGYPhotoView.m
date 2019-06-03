@@ -11,14 +11,12 @@
 #import "XGYPhotoBrowser.h"
 
 
-
-
 const CGFloat kXGYPhotoViewPadding = 10;
 const CGFloat kXGYPhotoViewMaxScale = 3;
 
 @interface XGYPhotoView ()<UIScrollViewDelegate, UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong, readwrite) YYAnimatedImageView *imageView;
+@property (nonatomic, strong, readwrite) FLAnimatedImageView *imageView;
 @property (nonatomic, strong, readwrite) XGYLoadingProgressLayer *progressLayer;
 /**
  图片的URL
@@ -42,7 +40,7 @@ const CGFloat kXGYPhotoViewMaxScale = 3;
             self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
         
-        _imageView = [[YYAnimatedImageView  alloc] init];
+        _imageView = [[FLAnimatedImageView  alloc] init];
         //默认图片颜色
         _imageView.backgroundColor = [UIColor groupTableViewBackgroundColor];
         _imageView.contentMode = UIViewContentModeScaleAspectFill;

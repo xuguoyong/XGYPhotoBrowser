@@ -1,4 +1,5 @@
 PODS:
+  - FLAnimatedImage (1.0.12)
   - Masonry (1.1.0)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
@@ -9,22 +10,25 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - FLAnimatedImage
   - Masonry
   - YYWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
     - Masonry
     - YYCache
     - YYImage
     - YYWebImage
 
 SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: ae43fe2e88f0828f0fe0322488f306c1c1fd4815
+PODFILE CHECKSUM: 8bb667f620c86cb02cd3e0e810d31cace4d864b4
 
 COCOAPODS: 1.5.3
